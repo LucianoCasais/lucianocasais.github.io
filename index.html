@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Integrador</title>
+    <link rel="stylesheet" type="text/css" href="Estilos.css" />
+    <script src="https://kit.fontawesome.com/4719282570.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="TrabajoIntegrador.js"></script>
+</head>
+<body>
+
+    <h1>CURRÍCULUM VITAE</h1>
+        
+    <h2 style="cursor: default;"><i class="fa-regular fa-address-card"></i> INFORMACIÓN PERSONAL</h2>
+        <div style="display:flex">
+            <img src=https://media.licdn.com/dms/image/C4E03AQE_XNRsFoorww/profile-displayphoto-shrink_800_800/0/1650390113967?e=1679529600&v=beta&t=i6JLDeOzQzAqNw1wcLkreagwnW3NdGjF7f7Bxc1hIwg>
+            <div class="info-personal">
+                <p> <i class="fa-solid fa-person fuente-icono"></i> <b>Nombre:</b> Luciano Manuel Casais
+                    <br/>
+                    <i class="fa-regular fa-id-card fuente-icono"></i> <b>DNI:</b> 40014696
+                    <br/>
+                    <i class="fa-solid fa-flag fuente-icono"></i> <b>Nacionalidad:</b> Argentina
+                    <br/>
+                    <i class="fa-solid fa-envelope fuente-icono"></i> <b>Email:</b> lucianocasais@hotmail.com
+                    <br/>
+                    <i class="fa-solid fa-building-user fuente-icono"></i> <b>Domicilio</b> Av. Rivadavia 6547
+                    <br/>
+                    <i class="fa-solid fa-phone fuente-icono"></i> <b>Telefono Particular</b> 4545-0888
+                    <br/>
+                    <i class="fa-solid fa-mobile fuente-icono"></i> <b>Telefono Celular</b> 11-4823-2385 
+                    <br/>
+                    <i class="fa-brands fa-linkedin fuente-icono"></i> <a target="_blank" href="https://ar.linkedin.com/in/luciano-casais-31a254238"><b>LinkedIn</b></a>
+                </p>
+            </div>
+        </div>    
+        
+    <h2 onclick="mostrar('educacion');"><i class="fa-solid fa-graduation-cap"></i> EDUCACIÓN</h2>
+    <div id="educacion" style="display: none;">
+        <p> <b>Educación secundaria:</b> 
+
+            Bachiller con orientación en ciencias de la comunicación. <b>Instituto Summa (2006)</b> 
+            <br/>
+            <b>Educación universitaria:</b> 
+            
+            Licenciatura en Administracion de Empresas. <b>Universidad Tecnológica Nacional (2011)</b>   
+        </p>
+    </div>
+
+    <h2 onclick="mostrar('habilidades');"><i class="fa-solid fa-user-gear"></i> HABILIDADES</h2>
+    <div id="habilidades" style="display: none;">
+            <p>
+                <b>Conocimientos en Computación.</b>
+                <br/>
+                <b>Capacitación completa en el uso de:</b> 
+                <ul>
+                    <li>Microsoft Word</li> 
+                
+                    <li>Microsoft Excel</li> 
+                
+                    <li>Microsoft PowerPoint</li> 
+                
+                    <li>Microsoft Outlook Express</li>
+                
+                    <li>Microsoft Windows</li>
+                </ul>
+            </p>
+    </div>  
+
+    <h2 onclick="mostrar('experiencia');"><i class="fa-sharp fa-solid fa-business-time"></i> EXPERIENCIA PROFESIONAL</h2>
+    <div id="experiencia" style="display: none;">
+        <p><b>Banco Galicia (2012-2015)</b></p>
+        <p>Tareas Realizadas:
+        <br/>
+        <ul>
+            <li>Responder preguntas y asistir al cliente con toda la información que necesite.</li> 
+            <li>Captar nuevos socios o clientes.</li>
+            <li>Realizar encuestas o sondeos que ayuden a mejorar el producto o servicio ofrecido y a recibir feedback del cliente. </li>
+            <li>Ejecutar estudios de mercado con diferentes objetivos. </li>
+            <li>Ofrecer soporte técnico.</li>
+            <li>Vender productos o servicios.</li> 
+            <li>Registrar reclamos o quejas.</li>
+        </ul>
+        </p>
+    </div>
+
+    <h2 onclick="mostrar('idiomas');"><i class="fa-sharp fa-solid fa-language"></i> IDIOMAS</h2>
+    <div id="idiomas" style="display: none;">
+        <ul>
+         <li><b>Inglés:</b> Alto</li>
+         <li><b>Alemán:</b> Medio</li>
+         <li><b>Español:</b> Nativo</li>
+        </ul>
+    </div>
+</body>
+</html>
